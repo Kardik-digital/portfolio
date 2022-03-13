@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="./libraries/fontawesome/css/all.css">
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Denis Nduhiu | Portfolio</title>
+</head>
+
+<body>
+
+    <nav class="navigation">
+        <div class="logo"> ;denis nduhiu</div>
+
+        <ul class="nav-list">
+            <li class="list-item">
+                <a href="#home" class="link">Home</a>
+            </li>
+            <li class="list-item">
+                <a href="#about" class="link">About</a>
+            </li>
+            <li class="list-item">
+                <a href="#projects" class="link">Projects</a>
+            </li>
+            <li class="list-item">
+                <a href="#" class="link open-form-modal">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- NOTIFICATION POPUP -->
+    <div class="notification">
+        <div class="message-content">Hello world</div>
+        <div class="close-notification">
+            <i class="fas fa-times"></i>
+        </div>
+    </div>
+    <!-- FORM MODAL POP UP -->
+    <div class="form-modal">
+        <div class="close-form-modal">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <div class="contact-info">
+            <div>
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <span>xnduhiux@gmail.com</span>
+                    <i class="fas fa-link copy" id="xnduhiux@gmail.com"></i>
+                </div>
+            </div>
+            <div>
+                <i class="fab fa-facebook"></i>
+                <div>
+                    <span>Fiverr</span>
+                    <i class="fas fa-link copy" id="xnduhiux@gmail.com"></i>
+                </div>
+            </div>
+        </div>
+        <form class="contact-form">
+            <h3>Fell free to contact me</h3>
+            <div class="input-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="John Doe" required>
+            </div>
+            <div class="input-group">
+                <label for="name">Email</label>
+                <input type="text" id="email" placeholder="john@doe.com" required>
+            </div>
+            <textarea id="message" placeholder="Your message"></textarea>
+            <button id="save-message">Send Message</button>
+        </form>
+    </div>
+
+
+
+
+    <section class="hero-section" id="home">
+        <div class="container">
+            <div class="border-line border-line-1"></div>
+            <h2 class="intro-header">Hi, am Nduhiu</h2>
+            <p class="career-header ">
+                Full-stack web developer specialized in building fully integrated web applications for small
+                businesses
+            </p>
+
+
+            <div class="social-links">
+                <a href="#" aria-label="twitter" class="social-link" target="_blank">
+                    <img src="./images/social-icons/twitter.png" alt="twitter icon">
+                </a>
+
+                <a href="#" aria-label="github" class="social-link" target="_blank">
+                    <img src="./images/social-icons/019-github-1.png" alt="github icon">
+                </a>
+
+                <a href="#" aria-label="linkedin" class="social-link" target="_blank">
+                    <img src="./images/programming-icons/024-linkedin.png" alt="linkedin icon">
+                </a>
+            </div>
+            <div class="border-line border-line-2"></div>
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="text-content">
+                <h1>About Me</h1>
+                <p>
+                    Hello, there my name is denis nduhiu and I am a full-stack web
+                    developer
+                    specializing in PHP. I have a Diploma in I.T from Dedan Kimathi University of Technology and a
+                    certificate in Web development from The Kenya Institute of Information technology. Since
+                    finishing
+                    my coding course 3 years ago, I have been able to add to my skill set. However, I am
+                    still eager
+                    to learn and teach other people and work in a team
+            </div>
+            <div class="skills">
+                <h1>my skills</h1>
+                <div class="grid">
+                    <div class="skill">
+                        <img src="./images/programming-icons/007-coding.png" alt="Html icon" class="skill-icon">
+                        <span class="skill-text">HTML</span>
+                    </div>
+                    <div class="skill">
+                        <img src="./images/programming-icons/015-css.png" alt="CSS icon" class="skill-icon">
+                        <span class="skill-text">CSS</span>
+                    </div>
+                    <div class="skill">
+                        <img src="./images/programming-icons/017-javascript-1.png" alt="Javascript icon"
+                            class="skill-icon">
+                        <span class="skill-text">Javascript</span>
+                    </div>
+                    <div class="skill">
+                        <img src="./images/programming-icons/011-php-code.png" alt="php icon" class="skill-icon">
+                        <span class="skill-text">PHP</span>
+                    </div>
+                    <div class="skill">
+                        <img src="./images/programming-icons/021-sql-server.png" alt="sql icon" class="skill-icon">
+                        <span class="skill-text">SQL</span>
+                    </div>
+                    <div class="skill">
+                        <img src="./images/programming-icons/010-atom-1.png" alt="React icon" class="skill-icon">
+                        <span class="skill-text">React</span>
+                    </div>
+                    <div class="skill">
+                        <img src="./images/programming-icons/016-javascript.png" alt="jquery icon" class="skill-icon">
+                        <span class="skill-text">Jquery</span>
+                    </div>
+                    <div class="skill">
+                        <img src="./images/programming-icons/other/git-256x256-1175218.png" alt="git icon"
+                            class="skill-icon">
+                        <span class="skill-text">Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h1>my projects</h1>
+        <div class="container">
+            <h2 class="heading-side">For clients</h2>
+            <div class="project">
+                <div class="project-sidebar">
+                    <div class="project-image">
+                        <img src="./images/kiit.png" alt="The kenya istitute of Information Technology Picture">
+                    </div>
+                    <div class="project-links">
+                        <a href="http://www.google.com" target="_blank" rel="noopener noreferrer"
+                            aria-label="Live link">
+                            <img src="./images/programming-icons/other/webpack-256x256-1174980.png" alt="web icon">
+                        </a>
+
+                    </div>
+                </div>
+                <div class="project-main">
+                    <h3 class="project-title">
+                        The Kenya Institute of information technology
+                    </h3>
+                    <p class="project-content">
+                        Built with learning in mind. Complete with a student portal and teachers portal. This
+                        project
+                        was built using PHP as the core language and also using MySQL server as the server of
+                        choice. It
+                        is also fully responsive and offers the user an intuitive experience while also maintaining
+                        functionality. All this is behind a login page to ensure that no unauthorized users can
+                        access
+                        the portal and data is kept safe.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-sidebar">
+                    <div class="project-image">
+                        <img src="./images/buybestwebsite.png" alt="BB resort">
+                    </div>
+                    <div class="project-links">
+                        <a href="http://www.google.com" target="_blank" rel="noopener noreferrer"
+                            aria-label="Live link">
+                            <img src="./images/programming-icons/other/webpack-256x256-1174980.png" alt="web icon">
+                        </a>
+
+                    </div>
+                </div>
+                <div class="project-main">
+                    <h3 class="project-title">
+                        Buy Best Resort
+                    </h3>
+                    <p class="project-content">
+                        Built for a resort. A simple yet elegant static website built to showcase the resorts
+                        experience. It is fully responsive and interactive.
+
+                    </p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-sidebar">
+                    <div class="project-image">
+                        <img src="./images/evershine.png" alt="evershine medical center image">
+                    </div>
+                    <div class="project-links">
+                        <a href="http://www.google.com" target="_blank" rel="noopener noreferrer"
+                            aria-label="Live link">
+                            <img src="./images/programming-icons/other/webpack-256x256-1174980.png" alt="web icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="project-main">
+                    <h3 class="project-title">
+                        Evershine Medical center
+                    </h3>
+                    <p class="project-content">
+                        This is a fully integrated website used by a clinic. It Has both static front end and a fully
+                        decked out dashboard in which the doctors can take a patients
+                        information, see a patients history, charge the patients
+                        and prescrible drugs accordingly.
+                        It also has a user management system where doctors can be
+                        added, removed or accounts deactivated to ensure good enough user authenticatation
+                    </p>
+                </div>
+            </div>
+
+            <h2 class="heading-side">personal project</h2>
+            <div class="project">
+                <div class="project-sidebar">
+                    <div class="project-image">
+                        <img src="./images/webblog.png" alt="Web blog website">
+                    </div>
+                    <div class="project-links">
+                        <a href="http://www.google.com" target="_blank" rel="noopener noreferrer"
+                            aria-label="Live link">
+                            <img src="./images/programming-icons/other/webpack-256x256-1174980.png" alt="web icon">
+                        </a>
+                        <a href="http://www.google.com" target="_blank" rel="noopener noreferrer"
+                            aria-label="GitHub Repo">
+                            <img src="./images/programming-icons/019-github-1.png" alt="github icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="project-main">
+                    <h3 class="project-title">
+                        Web_blog
+                    </h3>
+                    <p class="project-content">
+                        This is a full stack blogging website with a simple to user interface and full rich text
+                        editor.
+                        Users can post new blogs and react to already posted blogs. It is connected to a MYSQL
+                        database
+                        and CRUD functions are conducted through both Ajax and PHP. Source code is up on github
+                        for
+                        anybody.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            Developed by Denis Nduhiu <a href="mailto:xnduhiux@gmail.com">xnduhiux@gmail.com</a>
+        </footer>
+        <script src="./javascript/app.js"></script>
+    </section>
+
+</body>
+
+</html>
